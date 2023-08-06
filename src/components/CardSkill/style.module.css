@@ -1,0 +1,29 @@
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 10%;
+  background: #1e1e1e;
+
+  transition: all 0.3s ease;
+}
+
+.cardContainer:hover {
+  background: #cd1c29;
+}
+
+.img {
+  filter: invert(100%);
+
+  width: 100%;
+  height: auto;
+  max-width: 50px;
+}
+
+.title {
+  font-size: 2.4rem;
+  margin: 0;
+}
+
+.text {
+  font-size: 1.6rem;
+}

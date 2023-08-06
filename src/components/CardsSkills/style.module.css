@@ -1,0 +1,22 @@
+.containerCarsSkill {
+  width: 100%;
+
+  position: relative;
+
+  padding: 40px 0;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
+  gap: 20px;
+}
+
+.bar {
+  position: absolute;
+  height: 100%;
+  width: 50%;
+
+  background: #181818;
+
+  z-index: -1;
+}

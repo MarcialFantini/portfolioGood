@@ -1,0 +1,38 @@
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin: auto auto auto 0;
+}
+
+.text {
+  color: #9e101a;
+  font-size: 2.4rem;
+  margin: 0;
+}
+
+.title {
+  font-size: 5rem;
+  margin: 0;
+}
+
+.button {
+  margin: 20px 0;
+
+  padding: 10px 20px;
+
+  font-size: 1.6rem;
+  background: #c31a26;
+  border: #c31a26 5px solid;
+
+  color: white;
+
+  cursor: pointer;
+
+  transition: all 0.4s;
+}
+
+.button:hover {
+  color: #c31a26;
+  background: rgb(17, 17, 17);
+}
