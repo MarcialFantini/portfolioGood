@@ -1,0 +1,63 @@
+.containerProjects {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 40px 0;
+
+  overflow: hidden;
+}
+
+.containerCard {
+  display: grid;
+
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  width: 100%;
+  gap: 30px;
+}
+
+.picture {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  width: 100%;
+  aspect-ratio: 1.5;
+  background: #695dd8;
+}
+
+.titleImage {
+  position: absolute;
+}
+
+.textContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+
+  padding: 10%;
+}
+
+.textContainer h2 {
+  font-size: 2.8rem;
+  margin: 0;
+}
+
+.textContainer p {
+  font-size: 1.6rem;
+  margin: 0;
+}
+
+.picture {
+  opacity: 0;
+  transform: translate(300px);
+
+  transition: all 1s;
+}
+
+.show {
+  opacity: 1;
+  transform: translate(0px);
+}

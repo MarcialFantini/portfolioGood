@@ -1,15 +1,20 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import style from "./style.module.css";
 
 interface PropsCard {
   url: string;
   title: string;
   text: string;
+  isActive: boolean;
 }
 
 export function CardSkill(props: PropsCard) {
   return (
-    <div className={style.cardContainer}>
+    <div
+      className={
+        style.cardContainer + " " + (props.isActive ? style.active : "")
+      }
+    >
       <picture className={style.picture}>
         <img src={props.url} className={style.img} alt="" />
       </picture>

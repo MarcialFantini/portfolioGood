@@ -6,7 +6,7 @@
 }
 
 .text {
-  color: #9e101a;
+  color: #665bd2;
   font-size: 2.4rem;
   margin: 0;
 }
@@ -22,8 +22,8 @@
   padding: 10px 20px;
 
   font-size: 1.6rem;
-  background: #c31a26;
-  border: #c31a26 5px solid;
+  background: #665bd2;
+  border: #665bd2 5px solid;
 
   color: white;
 
@@ -33,6 +33,11 @@
 }
 
 .button:hover {
-  color: #c31a26;
+  color: #665bd2;
   background: rgb(17, 17, 17);
+}
+
+.subText {
+  font-size: 1.6rem;
+  margin: 0;
 }

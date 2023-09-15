@@ -7,6 +7,7 @@ export function HeaderText() {
     <div className={styled.textContainer}>
       <p className={styled.text}>Hello Im Marcial</p>
       <h1 className={styled.title}>Web Programer! </h1>
+      <h3 className={styled.subText}>Full stack dev</h3>
       <button className={styled.button}>About Me</button>
     </div>
   );

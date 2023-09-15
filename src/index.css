@@ -10,6 +10,7 @@ html {
 }
 
 body {
-  background: #111111;
+  background: rgb(24, 22, 38);
   color: #f8f8f8;
+  margin: 0;
 }
