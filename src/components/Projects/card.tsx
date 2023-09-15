@@ -6,11 +6,13 @@ function Card(app: {
   appName: string;
   appDescription: string;
   index: boolean;
+  src: string;
 }) {
   // Crear una referencia al elemento que deseamos observar
   const cardRef = useRef<HTMLDivElement>(null);
 
   const [isVisible, setIsVisible] = useState(false);
+  const [end, setEnd] = useState(false);
 
   useEffect(() => {
     // Función para manejar las entradas de la intersección
@@ -20,7 +22,8 @@ function Card(app: {
           // El elemento es visible en la ventana
           console.log(`El elemento ${app.appName} es visible.`);
           setIsVisible(true);
-          // Aquí puedes realizar la lógica que desees cuando el elemento es visible
+
+          setTimeout(() => setEnd(true), 1000);
         }
       });
     };
@@ -46,7 +49,11 @@ function Card(app: {
   }, [app.appName]); // Asegúrate de que el observador se actualice cuando el nombre de la aplicación cambie
 
   return (
-    <div className={style.containerCard}>
+    <div
+      className={
+        style.containerCard + " " + (isVisible && end ? style.overFlowNot : "")
+      }
+    >
       {!app.index ? (
         <div className={style.textContainer}>
           <h2 ref={cardRef}>{app.appTitle}</h2>
@@ -56,8 +63,7 @@ function Card(app: {
         ""
       )}
       <picture className={style.picture + " " + (isVisible ? style.show : "")}>
-        <h2 className={style.titleImage}>{app.appName}</h2>
-        <img className={style.img} src="" alt="" />
+        <img className={style.img} src={app.src} alt="" />
       </picture>
       {app.index ? (
         <div

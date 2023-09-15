@@ -6,17 +6,21 @@ import Projects from "./components/Projects";
 import WhatIDo from "./components/WhatIDo";
 
 import style from "./App.module.css";
+import Contact from "./components/Contact";
 
 function App() {
   return (
-    <div className={style.containerApp}>
+    <>
       <Navbar></Navbar>
-      <Header></Header>
-      <CardsSkills></CardsSkills>
-      <About></About>
-      <WhatIDo></WhatIDo>
-      <Projects></Projects>
-    </div>
+      <div className={style.containerApp}>
+        <Header></Header>
+        <CardsSkills></CardsSkills>
+        <About></About>
+        <WhatIDo></WhatIDo>
+        <Projects></Projects>
+        <Contact></Contact>
+      </div>
+    </>
   );
 }
 

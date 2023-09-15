@@ -18,8 +18,6 @@ export function CardsSkills() {
       }
     }, 1000);
 
-    console.log("hola");
-
     return () => {
       clearTimeout(timer);
     };

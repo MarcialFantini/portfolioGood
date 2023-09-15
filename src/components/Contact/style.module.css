@@ -1,0 +1,53 @@
+.title {
+  margin: 0;
+  font-size: 4rem;
+}
+.containerContact {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  margin: 40px 0;
+  gap: 20px;
+}
+
+.picture {
+  width: auto;
+  box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.5);
+  background: rgba(255, 35, 237, 0.048);
+  backdrop-filter: blur(2px);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+
+  padding: 10px;
+}
+
+.img {
+  width: 100%;
+  height: auto;
+}
+
+.containerItems {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 10%;
+  box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.5);
+  background: rgba(255, 35, 237, 0.048);
+  backdrop-filter: blur(2px);
+}
+
+.list {
+  padding: 0;
+}
+.list li {
+  font-size: 3rem;
+  color: white;
+}
+
+.list li a {
+  color: white;
+}

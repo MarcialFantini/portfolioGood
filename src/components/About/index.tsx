@@ -1,4 +1,5 @@
 import React from "react";
+import person from "../../assets/persona/persona.png";
 
 import style from "./style.module.css";
 
@@ -25,7 +26,7 @@ function About() {
           <div className={style.shadowOvalRevers}></div>
           <div className={style.shadowOval}></div>
           <picture className={style.picture}>
-            <img src="" alt="" />
+            <img className={style.img} src={person} alt="" />
           </picture>
         </div>
       </div>

@@ -24,11 +24,37 @@
   gap: 30px;
 }
 
+@keyframes HoverCard {
+  0%,
+  100% {
+    transform: rotate(0) translate(0);
+  }
+  25% {
+    transform: rotate(-10deg);
+  }
+
+  75% {
+    transform: rotate(10deg);
+  }
+}
+
 .containerCard {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 10px;
+
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+
+  padding: 20px;
+  border-radius: 10px;
+
+  box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.5);
+}
+
+.containerCard:hover {
+  animation: HoverCard 0.5s;
 }
 
 .text {
@@ -44,4 +70,9 @@
   border-radius: 50%;
 
   margin-bottom: 20px;
+  padding: 30px;
+}
+.img {
+  width: 100%;
+  height: auto;
 }
