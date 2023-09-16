@@ -13,7 +13,7 @@
 
 .cardContainer:hover {
   background: rgb(39, 24, 104);
-  transform: scale(1.2);
+  transform: scale(1.05);
 }
 
 .img {

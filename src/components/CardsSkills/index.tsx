@@ -25,7 +25,6 @@ export function CardsSkills() {
 
   return (
     <div id="habilities" className={style.containerCarsSkill}>
-      <div className={style.bar}></div>
       <CardSkill
         isActive={count === 0}
         title="Front-end"
