@@ -5,10 +5,10 @@ import styled from "./style.module.css";
 export function HeaderText() {
   return (
     <div className={styled.textContainer}>
-      <p className={styled.text}>Hello Im Marcial</p>
-      <h1 className={styled.title}>Web Programer! </h1>
-      <h3 className={styled.subText}>Full stack dev</h3>
-      <button className={styled.button}>About Me</button>
+      <p className={styled.text}>Hola, soy Marcial</p>
+      <h1 className={styled.title}>Programador Web</h1>
+      <h3 className={styled.subText}>Desarrollador Full Stack</h3>
+      <button className={styled.button}>Acerca de mí</button>
     </div>
   );
 }

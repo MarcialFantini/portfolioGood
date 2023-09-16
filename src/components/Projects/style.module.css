@@ -3,7 +3,6 @@
   flex-direction: column;
   gap: 20px;
   margin: 40px 0;
-
 }
 
 .containerCard {
@@ -17,7 +16,7 @@
   transition: all 0.3s;
 }
 
-.overFlowNot{
+.overFlowNot {
   overflow: visible;
 }
 
@@ -42,7 +41,7 @@
   flex-direction: column;
   gap: 20px;
 
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(35, 31, 61);
   backdrop-filter: blur(4px);
 
   padding: 10%;
@@ -61,7 +60,6 @@
 }
 
 .picture {
-  
   opacity: 0;
   transform: translate(300px);
 
@@ -74,15 +72,16 @@
 }
 
 @keyframes ImgAnimation {
-  0%, 100%{
-box-shadow: 0 0 20px 0 #695dd8;
+  0%,
+  100% {
+    box-shadow: 0 0 20px 0 #695dd8;
   }
-  50%{
+  50% {
     box-shadow: 0 0 20px 10px #695dd8;
   }
 }
 
-.img{
+.img {
   width: 100%;
   height: auto;
   border: 5px solid black;

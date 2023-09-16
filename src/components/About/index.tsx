@@ -5,7 +5,7 @@ import style from "./style.module.css";
 
 function About() {
   return (
-    <div className={style.containerAbout}>
+    <div id="about" className={style.containerAbout}>
       <h4 className={style.title}>About Me</h4>
 
       <div className={style.containerGrid}>

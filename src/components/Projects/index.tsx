@@ -4,24 +4,25 @@ import ecommerce from "../../assets/projects/a.png";
 
 const apps = [
   {
-    appTitle: "Weather App",
-    appName: "Weatherly",
-    src: ecommerce,
+    appTitle: "Proyecto Frontend de Comercio Electrónico",
+    appName: "EcomStore",
+    src: ecommerce, // Reemplaza con el enlace a tu repositorio si lo deseas
     appDescription:
-      "Get real-time weather forecasts and updates with Weatherly. Stay informed about current weather conditions, temperature, and more, wherever you are.",
+      "Un avanzado proyecto frontend de comercio electrónico construido con React.js, Next.js y Redux.js.  disfruta de una experiencia de usuario.",
   },
+
   {
-    appTitle: "Task Manager",
-    appName: "TaskMaster",
-    src: ecommerce,
+    appTitle: "Proyecto Backend con TypeScript y Express",
+    appName: "EcomStore Backend",
+    src: ecommerce, // Reemplaza con el enlace a tu repositorio si lo deseas
     appDescription:
-      "Effortlessly manage your tasks and to-do lists with TaskMaster. Stay organized, set deadlines, and boost your productivity with this powerful task management app.",
+      " Proyecto EcomStore Backend, un proyecto backend potente y seguro construido con TypeScript y Express. Utiliza PostgreSQL como tu base de datos para gestionar datos críticos.",
   },
 ];
 
 function Projects() {
   return (
-    <div className={style.containerProjects}>
+    <div id="projects" className={style.containerProjects}>
       {apps.map((app, index) => {
         return (
           <Card

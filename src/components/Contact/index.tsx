@@ -3,7 +3,7 @@ import style from "./style.module.css";
 
 function Contact() {
   return (
-    <div className={style.containerContact}>
+    <div id="contact" className={style.containerContact}>
       <picture className={style.picture}>
         <img className={style.img} src={person} alt="person " />
       </picture>
