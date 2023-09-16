@@ -9,6 +9,8 @@
   background: rgb(39, 24, 104);
   padding: 10%;
   border-radius: 10px;
+
+  box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.1);
 }
 
 .text {
