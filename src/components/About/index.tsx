@@ -11,11 +11,11 @@ function About() {
         <div className={style.containerText}>
           <h4 className={style.title}>Full Stack</h4>
           <p className={style.text}>
-            Soy un apasionado desarrollador Full Stack con una sólida
-            experiencia en la creación de soluciones web innovadoras. Mi enfoque
-            se centra en la combinación de tecnologías de vanguardia para
-            proporcionar experiencias de usuario excepcionales. Soy autodidacta
-            y siempre estoy buscando aprender y mejorar mis habilidades.
+            Amo solucionar problemas con las herramientas de programación. Puedo
+            aportar un gran valor a la empresa mediante la maquetación,
+            animación y adición de funcionalidades para el usuario final. Soy
+            autodidacta y siempre estoy deseoso de aplicar todos mis
+            conocimientos.
           </p>
           <button className={style.button}>Download My CV</button>
         </div>

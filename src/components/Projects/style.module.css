@@ -1,7 +1,7 @@
 .containerProjects {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 40px;
   margin: 40px 0;
 }
 
@@ -10,8 +10,7 @@
 
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   width: 100%;
-  gap: 30px;
-  overflow: hidden;
+  gap: 40px;
 
   transition: all 0.3s;
 }
@@ -64,6 +63,11 @@
   transform: translate(300px);
 
   transition: all 1s;
+  animation: ImgAnimation 2s infinite linear;
+  border-radius: 10px;
+
+  overflow: hidden;
+  border: 5px solid black;
 }
 
 .show {
@@ -82,10 +86,6 @@
 }
 
 .img {
-  width: 100%;
-  height: auto;
-  border: 5px solid black;
-  border-radius: 10px;
-
-  animation: ImgAnimation 2s infinite linear;
+  width: auto;
+  height: 100%;
 }

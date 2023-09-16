@@ -11,7 +11,7 @@
 
 .picture {
   width: auto;
-  box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 40px 0 rgba(255, 255, 255, 0.1);
   background: rgba(255, 35, 237, 0.048);
   backdrop-filter: blur(2px);
 
@@ -21,6 +21,8 @@
   overflow: hidden;
 
   padding: 10px;
+
+  border-radius: 10px;
 }
 
 .img {
@@ -35,8 +37,9 @@
   align-items: center;
 
   padding: 10%;
-  box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 40px 0 rgba(255, 255, 255, 0.1);
   background: rgba(35, 31, 61);
+  border-radius: 10px;
   backdrop-filter: blur(2px);
 }
 
@@ -46,8 +49,29 @@
 .list li {
   font-size: 3rem;
   color: white;
+
+  list-style: none;
 }
 
 .list li a {
+  margin: 20px 0;
+
+  padding: 10px 20px;
+
+  font-size: 1.6rem;
+  background: #665bd2;
+  border: #665bd2 5px solid;
+
   color: white;
+
+  cursor: pointer;
+
+  transition: all 0.3s;
+
+  text-decoration: none;
+}
+
+.list li a:hover {
+  color: #665bd2;
+  background: rgb(17, 17, 17);
 }

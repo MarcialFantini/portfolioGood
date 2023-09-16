@@ -6,21 +6,21 @@ import page from "../../assets/itemsDescriptions/page.svg";
 
 const cards = [
   {
-    titulo: "Desarrollador Full Stack Apasionado",
+    titulo: "Excelente Maquetado ",
     descripcion:
-      "Experto en la creación de soluciones web innovadoras y optimizadas, con experiencia en tecnologías de vanguardia y un enfoque centrado en la experiencia del usuario.",
+      "Enfoque en maquetado de diseños UI, donde transformo tu diseño en una Interfaz Web",
     src: page,
   },
   {
-    titulo: "Experto en eCommerce",
+    titulo: "Orientado en eCommerce",
     descripcion:
-      "Especializado en el desarrollo completo de sistemas de comercio electrónico, desde la creación de robustos backends con Express.js hasta la implementación de interfaces de usuario dinámicas.",
+      "Experiencia creando eCommerce tanto en el Front End y Back End.",
     src: dev,
   },
   {
     titulo: "Habilidades Técnicas Destacadas",
     descripcion:
-      "Experto en JavaScript, con un enfoque en TypeScript, y amplia experiencia en frameworks como Next.js y Express.js. Especializado en la gestión de estado con Redux y en el diseño de bases de datos.",
+      "Tengo buenas técnicas en resolución de problemas de forma algorítmica y matemática",
     src: back,
   },
 ];
