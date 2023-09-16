@@ -1,4 +1,3 @@
-import React from "react";
 import { HeaderText } from "../HeaderText";
 
 import businessman from "../../assets/persona/persona.png";

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { CardSkill } from "../CardSkill";
 import style from "./style.module.css";
 

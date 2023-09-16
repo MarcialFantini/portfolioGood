@@ -1,5 +1,3 @@
-import React from "react";
-
 import styled from "./style.module.css";
 
 export function HeaderText() {

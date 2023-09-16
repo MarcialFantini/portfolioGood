@@ -1,4 +1,3 @@
-import React from "react";
 import person from "../../assets/persona/persona.png";
 
 import style from "./style.module.css";
