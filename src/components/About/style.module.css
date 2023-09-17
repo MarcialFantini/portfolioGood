@@ -60,6 +60,7 @@
   color: white;
   border: solid #695dd8;
   font-size: 1.6rem;
+  cursor: pointer;
 }
 
 @keyframes ShadowOval {

@@ -2,7 +2,21 @@ import person from "../../assets/persona/persona.png";
 
 import style from "./style.module.css";
 
+import pdf from "../../assets/Marcial Fantini_fullStack.pdf";
+
 function About() {
+  const descargarPDF = () => {
+    // Construye la URL del archivo PDF en la carpeta "public"
+
+    // Crea un enlace temporal para la descarga del archivo
+    const link = document.createElement("a");
+    link.href = pdf;
+    link.download = "marcial_Full_Stack.pdf"; // Nombre del archivo
+
+    // Simula un clic en el enlace para iniciar la descarga
+    link.click();
+  };
+
   return (
     <div id="about" className={style.containerAbout}>
       <h4 className={style.title}>About Me</h4>
@@ -17,7 +31,9 @@ function About() {
             autodidacta y siempre estoy deseoso de aplicar todos mis
             conocimientos.
           </p>
-          <button className={style.button}>Download My CV</button>
+          <button onClick={descargarPDF} className={style.button}>
+            Download My CV
+          </button>
         </div>
         <div className={style.containerImage}>
           <div className={style.shadowOvalRevers1}></div>
